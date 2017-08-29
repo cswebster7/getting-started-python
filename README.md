@@ -9,7 +9,7 @@ microframework
 
 To run the application, make sure you have the [wercker cli installed with it's proper requirements](http://devcenter.wercker.com/learn/basics/the-wercker-cli.html).
 
-Once you have all that set up, you can start the application by running `wercker dev --publish 5000`. 
+Once you have all that set up, you can start the application by running `wercker dev --expose-ports`. 
 
 This will run your application inside your Docker host. The `wercker dev` command will tell you the address and port you can find the application on.
 
